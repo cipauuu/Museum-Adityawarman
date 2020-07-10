@@ -1,0 +1,192 @@
+a:hover{
+    text-decoration: none;
+}
+
+.btn-warning {
+    color: white !important;
+}
+
+nav {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    background-color: white !important;
+}
+
+nav .navbar-brand img {
+    width: 23%;
+}
+
+nav .active {
+    -moz-box-shadow: inset 0 -4px 0 #302E30;
+    -webkit-box-shadow: inset 0 -4px 0 #302E30;
+    box-shadow: inset 0 -4px 0 #302E30;
+}
+
+nav li {
+    padding-top: 0.9vw;
+    padding-bottom: 0.9vw;
+    margin-right: 1.5vw;
+    transition: 1s;
+}
+
+nav li:hover {
+    -moz-box-shadow: inset 0 -4px 0 #302E30;
+    -webkit-box-shadow: inset 0 -4px 0 #302E30;
+    box-shadow: inset 0 -4px 0 #302E30;
+}
+
+nav a {
+    color: lightgray;
+}
+
+nav .active a,
+nav li:hover a {
+    color: #302E30 !important;
+}
+
+.dropdown-menu {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    margin: 0 !important;
+}
+
+.dropdown-item:hover {
+    background-color: lightgray !important;
+}
+
+.ddm-2{
+    width: 35vw;  
+}
+
+.navbar-light .navbar-toggler {
+    border-color: lightgray !important;
+}
+
+.carousel {
+    max-height: 70vh;
+}
+
+.carousel h2 {
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.75);
+}
+
+.carousel img {
+    max-height: 70vh;
+}
+
+.carousel-caption {
+    text-align: left;
+}
+
+.satu .satu-dua-bg {
+    border-radius: 0.5vw;
+}
+
+.satu .satu-dua-bg .jh-1 {
+    font-weight: bolder;
+    font-size: 1.3vw;
+    letter-spacing: 7px;
+    color: white;
+    margin-bottom: 0;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.75);
+}
+
+.satu .satu-dua-bg .jh-2 {
+    font-weight: bolder;
+    font-size: 1vw;
+    color: whitesmoke;
+    letter-spacing: 5px;
+    margin-bottom: 0;
+}
+
+.satu .satu-dua-bg .jh-3 {
+    font-size: 1vw;
+    color: whitesmoke;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("img/parallax.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dua-title,.koleksi-title {
+    font-weight: bolder;
+    font-size: 3vw;
+    letter-spacing: 1.5vw;
+    color: white;
+    margin-bottom: 0;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.75);
+}
+
+.dua img {
+    background-color: #ffc10b !important;
+    border-radius: 0.75vw;
+    border: 2.5px solid white;
+}
+
+.dua img:hover {
+    opacity: 0.85;
+}
+
+.dua a p{
+    margin-bottom: 0;
+    font-weight: bolder;
+    text-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.75);
+}
+
+.dua a {
+    color: white;
+}
+
+.dua a:hover {
+    color: antiquewhite;
+}
+
+.koleksi-title {
+    color: black;
+    text-shadow: 3px 3px rgba(211, 211, 211, 0.75);
+}
+
+.koleksi .card{
+    margin-bottom: 1vw;
+}
+
+.donasi {
+    background: #eaeaea;
+}
+
+.donasi b {
+    font-size: 2.6vw;
+}
+
+.donasi p {
+    font-size: 1.8vw;
+}
+
+.donasi .btn-donasi {
+    background: #ffc107;
+    padding: 1vw;
+    padding-right: 2.4vw;
+    padding-left: 2.4vw;
+    border-radius: 4vw;
+    font-weight: 100;
+    font-size: 1.5vw;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.donasi .btn-donasi:hover {
+    background: #e5aa09;
+}
+
+footer {
+    background-color: #302E30;
+    color: white;
+}
