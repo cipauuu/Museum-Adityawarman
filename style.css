@@ -1,4 +1,4 @@
-a:hover{
+a:hover {
     text-decoration: none;
 }
 
@@ -6,41 +6,41 @@ a:hover{
     color: white !important;
 }
 
-nav {
+.navbar {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
     background-color: white !important;
 }
 
-nav .navbar-brand img {
+.navbar .navbar-brand img {
     width: 23%;
 }
 
-nav .active {
+.navbar .active {
     -moz-box-shadow: inset 0 -4px 0 #302E30;
     -webkit-box-shadow: inset 0 -4px 0 #302E30;
     box-shadow: inset 0 -4px 0 #302E30;
 }
 
-nav li {
+.navbar li {
     padding-top: 0.9vw;
     padding-bottom: 0.9vw;
     margin-right: 1.5vw;
     transition: 1s;
 }
 
-nav li:hover {
+.navbar li:hover {
     -moz-box-shadow: inset 0 -4px 0 #302E30;
     -webkit-box-shadow: inset 0 -4px 0 #302E30;
     box-shadow: inset 0 -4px 0 #302E30;
 }
 
-nav a {
+.navbar a {
     color: lightgray;
 }
 
-nav .active a,
-nav li:hover a {
+.navbar .active a,
+.navbar li:hover a {
     color: #302E30 !important;
 }
 
@@ -54,8 +54,8 @@ nav li:hover a {
     background-color: lightgray !important;
 }
 
-.ddm-2{
-    width: 35vw;  
+.ddm-2 {
+    width: 35vw;
 }
 
 .navbar-light .navbar-toggler {
@@ -116,7 +116,8 @@ nav li:hover a {
     background-size: cover;
 }
 
-.dua-title,.koleksi-title {
+.dua-title,
+.koleksi-title {
     font-weight: bolder;
     font-size: 3vw;
     letter-spacing: 1.5vw;
@@ -135,7 +136,7 @@ nav li:hover a {
     opacity: 0.85;
 }
 
-.dua a p{
+.dua a p {
     margin-bottom: 0;
     font-weight: bolder;
     text-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.75);
@@ -154,7 +155,7 @@ nav li:hover a {
     text-shadow: 3px 3px rgba(211, 211, 211, 0.75);
 }
 
-.koleksi .card{
+.koleksi .card {
     margin-bottom: 1vw;
 }
 
@@ -189,4 +190,16 @@ nav li:hover a {
 footer {
     background-color: #302E30;
     color: white;
+}
+
+.breadcrumb{
+    background: #EAEAEA;
+}
+
+.breadcrumb-item a{
+    color: #ffc107;
+}
+
+.breadcrumb-item a:hover{
+    color: #e5aa09;
 }
