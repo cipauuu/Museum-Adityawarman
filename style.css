@@ -1,4 +1,4 @@
-a{
+a {
     color: #FFC10B;
 }
 
@@ -53,6 +53,10 @@ a:hover {
     border-top-left-radius: 0 !important;
     border-top-right-radius: 0 !important;
     margin: 0 !important;
+}
+
+.dropdown-menu a {
+    color: black;
 }
 
 .dropdown-item:hover {
@@ -197,14 +201,31 @@ footer {
     color: white;
 }
 
-.breadcrumb{
+.breadcrumb {
     background: #EAEAEA;
 }
 
-.breadcrumb-item a{
+.breadcrumb-item a {
     color: #ffc107;
 }
 
-.breadcrumb-item a:hover{
+.breadcrumb-item a:hover {
     color: #e5aa09;
+}
+
+.kontak img{
+    transition: 1s;
+}
+
+.kontak img:hover{
+    transform: rotate(1080deg);
+}
+
+.pagination .page-link{
+    color: #ffc107;
+}
+
+.page-item.active .page-link{
+    background: #ffc107;
+    border-color: #ffc107;
 }

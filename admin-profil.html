@@ -9,6 +9,7 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
     <style>
         /* Fixed sidenav, full height */
@@ -49,7 +50,7 @@
 
         /* Main content */
         .main {
-            margin-top: 80px;
+            margin-top: 52px;
             margin-left: 200px;
             /* Same as the width of the sidenav */
             font-size: 20px;
@@ -74,6 +75,7 @@
         .fa-caret-down {
             float: right;
             padding-right: 8px;
+            padding-top: 5px;
         }
 
         /* Some media queries for responsiveness */
@@ -85,6 +87,16 @@
             .sidenav a {
                 font-size: 18px;
             }
+        }
+        
+        .artikel{
+            background: #343A3F;
+            color: white;
+        }
+        
+        .artikel:hover{
+            background: #343A3F;
+            color: white;
         }
 
     </style>
@@ -105,19 +117,69 @@
 
     <!-- Sidebar -->
     <div class="sidenav">
+        <button class="dropdown-btn artikel">Buat Post Baru
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="admin-buat-berita.html">Berita Museum</a>
+            <a href="#">Artikel</a>
+            <a href="#">Event</a>
+        </div>
+        
+        <button class="dropdown-btn artikel mt-1">Edit Post Lama
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#">Berita Museum</a>
+            <a href="#">Artikel</a>
+            <a href="#">Event</a>
+        </div>
+        
+        <button class="dropdown-btn">Tambah Koleksi
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#">Arkeologika</a>
+            <a href="#">Biologika</a>
+            <a href="#">Etnografika</a>
+            <a href="#">Filologika</a>
+            <a href="#">Geologika</a>
+            <a href="#">Historika</a>
+            <a href="#">Teknologika</a>
+            <a href="#">Seni Ukir</a>
+            <a href="#">Seni Rupa</a>
+            <a href="#">Numismatika/Heraldika</a>
+            <a href="#">Keramalogika</a>
+        </div>
+        
+        <button class="dropdown-btn">Edit Koleksi
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#">Arkeologika</a>
+            <a href="#">Biologika</a>
+            <a href="#">Etnografika</a>
+            <a href="#">Filologika</a>
+            <a href="#">Geologika</a>
+            <a href="#">Historika</a>
+            <a href="#">Teknologika</a>
+            <a href="#">Seni Ukir</a>
+            <a href="#">Seni Rupa</a>
+            <a href="#">Numismatika/Heraldika</a>
+            <a href="#">Keramalogika</a>
+        </div>
+        
         <button class="dropdown-btn">Tentang Kami
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-            <a href="#">Profil</a>
+            <a href="admin-profil.html">Profil</a>
             <a href="#">Visi & Misi</a>
             <a href="#">Kurator</a>
         </div>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#clients">Clients</a>
-        <a href="#contact">Contact</a>
-        <a href="#contact">Search</a>
+        
+        <a href="#">Donasi</a>
+        <a href="#">Kontak</a>
     </div>
     <!-- Sidebar -->
 
