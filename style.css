@@ -1,4 +1,9 @@
+a{
+    color: #FFC10B;
+}
+
 a:hover {
+    color: #BB8C0B;
     text-decoration: none;
 }
 
