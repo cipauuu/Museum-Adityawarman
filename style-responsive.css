@@ -1,11 +1,119 @@
 @media (max-width: 991.98px) {
-    
+    .dropdown-menu.show {
+        width: 100%;
+    }
+
+    .ddm-2 .row {
+        width: 100%;
+    }
+
+    .carousel img {
+        max-height: 45vh;
+    }
+
+    .satu .satu-dua-bg .jh-1 {
+        font-size: 1.7vw;
+    }
+
+    .satu .satu-dua-bg .jh-2 {
+        font-size: 1.5vw;
+        letter-spacing: 0;
+    }
+
+    .satu .satu-dua-bg .jh-3 {
+        font-size: 1.5vw;
+        letter-spacing: 0;
+    }
+
+    .parallax .row {
+        text-align: center;
+    }
+
+    .parallax .col-sm-6 {
+        margin-bottom: 2vw;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-    
+    .carousel img {
+        max-height: 35vh;
+    }
+
+    .carousel-caption h2 {
+        font-size: 3vw;
+    }
+
+    .satu .satu-dua {
+        margin-top: 5vw !important;
+    }
+
+    .satu .satu-dua-bg .jh-1 {
+        font-size: 3vw;
+    }
+
+    .satu .satu-dua-bg .jh-2 {
+        font-size: 2vw;
+        letter-spacing: 0;
+    }
+
+    .satu .satu-dua-bg .jh-3 {
+        font-size: 2vw;
+        letter-spacing: 0;
+    }
+
+    .parallax .row {
+        text-align: center;
+    }
+
+    .dua img {
+        width: 90%;
+    }
+
+    .dua-title,
+    .koleksi-title {
+        font-size: 4vw;
+    }
+
+    .koleksi .btn-warning {
+        font-size: 2vw;
+    }
+
+    .btn-warning.btn-lg {
+        font-size: 2vw;
+    }
+
+    .koleksi .card-title {
+        font-size: 2.5vw;
+    }
+
+    .koleksi img {
+        height: 30vw;
+    }
+
+    iframe {
+        height: 300px;
+    }
+
+    .donasi .py-5 {
+        max-width: 100%;
+    }
+
+    .donasi b {
+        font-size: 3.5vw;
+    }
+
+    .donasi p {
+        font-size: 2.4vw;
+    }
+
+    .donasi .btn-donasi {
+        padding: 1.5vw;
+        padding-right: 2.4vw;
+        padding-left: 2.4vw;
+        border-radius: 4vw;
+        font-weight: 100;
+        font-size: 2vw;
+    }
 }
 
-@media (min-width: 320px) and (max-width: 576px) {
-    
-}
+@media (min-width: 320px) and (max-width: 576px) {}
