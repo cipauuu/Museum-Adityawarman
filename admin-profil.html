@@ -88,13 +88,13 @@
                 font-size: 18px;
             }
         }
-        
-        .artikel{
+
+        .artikel {
             background: #343A3F;
             color: white;
         }
-        
-        .artikel:hover{
+
+        .artikel:hover {
             background: #343A3F;
             color: white;
         }
@@ -125,7 +125,7 @@
             <a href="#">Artikel</a>
             <a href="#">Event</a>
         </div>
-        
+
         <button class="dropdown-btn artikel mt-1">Edit Post Lama
             <i class="fa fa-caret-down"></i>
         </button>
@@ -134,7 +134,7 @@
             <a href="#">Artikel</a>
             <a href="#">Event</a>
         </div>
-        
+
         <button class="dropdown-btn">Tambah Koleksi
             <i class="fa fa-caret-down"></i>
         </button>
@@ -151,7 +151,7 @@
             <a href="#">Numismatika/Heraldika</a>
             <a href="#">Keramalogika</a>
         </div>
-        
+
         <button class="dropdown-btn">Edit Koleksi
             <i class="fa fa-caret-down"></i>
         </button>
@@ -168,7 +168,7 @@
             <a href="#">Numismatika/Heraldika</a>
             <a href="#">Keramalogika</a>
         </div>
-        
+
         <button class="dropdown-btn">Tentang Kami
             <i class="fa fa-caret-down"></i>
         </button>
@@ -177,7 +177,7 @@
             <a href="#">Visi & Misi</a>
             <a href="#">Kurator</a>
         </div>
-        
+
         <a href="#">Donasi</a>
         <a href="#">Kontak</a>
     </div>
@@ -187,7 +187,7 @@
     <div class="main">
         <h1 class="mb-4">Profil Musem Adityawarman</h1>
         <textarea name="editor1"></textarea>
-        
+
         <div class="container text-right mt-4 pr-0">
             <a href="" class="btn btn-warning btn-lg" style="color: white;letter-spacing: 3px;">Simpan</a>
         </div>
@@ -215,9 +215,12 @@
 
 </script>
 
-<script src="https://cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
+<script src="ckeditor4/ckeditor.js"></script>
 <script>
-    CKEDITOR.replace('editor1');
+    CKEDITOR.replace('editor1', {
+        filebrowserBrowseUrl: '/browser/browse.php',
+        filebrowserUploadUrl: '/uploader/upload.php'
+    });
     CKEDITOR.config.height = '500px';
 
 </script>
