@@ -100,7 +100,7 @@
 
         <div class="row">
             <div class="col-6  d-inline">
-                <a href="#" class="pop"><img src="img/Koleksi/Arkeologika/gelang%20batu.jpg" style="max-width: 180px;border-radius: 1vw;" alt="" class="float-left mr-3"></a>
+                <a href="#" data-toggle="modal" data-target="#exampleModalCenter"><img src="img/Koleksi/Arkeologika/gelang%20batu.jpg" style="max-width: 180px;border-radius: 1vw;" alt="" class="float-left mr-3"></a>
                 <p>Gelang merupakan salah satu bentuk perhiasan wanita sejak mulai zaman batu sampai sekarang. Bahan dari gelang ini pada zaman batu terbuat dari bentuk bulat seperti lingkaran tangan. Warna keputihan kondisi gelang ini sudah patah menjadi empat bagian. <br>
                     <br>
                     Pada zaman batu ini manusia memanfaatkan apa yang ada di alam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, est. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, totam?</p>
@@ -167,29 +167,29 @@
     </footer>
     <!-- Footer -->
 
-    <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Gelang Batu</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
                 <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                    <img src="img/Koleksi/Arkeologika/gelang%20batu.jpg" class="imagepreview" style="width: 100%;">
+                    <img src="img/Koleksi/Arkeologika/gelang%20batu.jpg" width="100%" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
-    </div>
 
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script>
-    $(function() {
-        $('.pop').on('click', function() {
-            $('.imagepreview').attr('src', $(this).find('img').attr('src'));
-            $('#imagemodal').modal('show');
-        });
-    });
 
-</script>
 
 </html>
