@@ -14,7 +14,6 @@ a:hover {
 .navbar {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
-    background-color: white !important;
 }
 
 .navbar .navbar-brand img {
@@ -165,7 +164,7 @@ a:hover {
 }
 
 .koleksi .card {
-    margin-bottom: 1vw;
+    margin-bottom: 2.5vw;
 }
 
 .donasi {
