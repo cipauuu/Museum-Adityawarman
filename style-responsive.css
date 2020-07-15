@@ -5,6 +5,13 @@
 
     .ddm-2 .row {
         width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .ddm-2 .container {
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .carousel img {
@@ -114,6 +121,139 @@
         font-weight: 100;
         font-size: 2vw;
     }
+    
+    .berita .media{
+        display: inline;
+    }
+    
+    .berita .media img{
+        margin-bottom: 2vw;
+    }
 }
 
-@media (min-width: 320px) and (max-width: 576px) {}
+@media (min-width: 320px) and (max-width: 576px) {
+    .navbar-brand{
+        margin-right: 0;
+        padding-right: 0;
+        width: 270px;
+    }
+    
+    .btn-warning{
+        font-size: 3.5vw;
+    }
+
+    .carousel img {
+        max-height: 30vh;
+    }
+
+    .carousel-caption h2 {
+        font-size: 4vw;
+    }
+
+    .satu img {
+        max-width: 50%;
+    }
+
+    .satu .satu-dua {
+        margin-top: 5vw !important;
+    }
+
+    .satu .satu-dua-bg .jh-1 {
+        font-size: 4vw;
+    }
+
+    .satu .satu-dua-bg .jh-2 {
+        font-size: 3.5vw;
+        letter-spacing: 0;
+    }
+
+    .satu .satu-dua-bg .jh-3 {
+        font-size: 3.5vw;
+        letter-spacing: 0;
+    }
+    
+    .parallax {
+        padding: 3vw!important;
+    }
+
+    .parallax .container {
+        padding: 0;
+    }
+    
+    .parallax .col-6 p {
+        font-size: 3.5vw;
+    }
+
+    .dua img {
+        width: 100%;
+    }
+
+    .dua-title,
+    .koleksi-title {
+        font-size: 7vw;
+    }
+
+    .koleksi .btn-warning {
+        font-size: 2.5vw;
+    }
+
+    .koleksi .btn-lg {
+        font-size: 3.5vw;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        float: left;
+    }
+
+    .koleksi .card-title {
+        font-size: 2.6vw;
+    }
+
+    .koleksi img {
+        height: 30vw;
+    }
+
+    iframe {
+        height: 250px;
+    }
+
+    .donasi .py-5 {
+        max-width: 100%;
+    }
+
+    .donasi b {
+        font-size: 5vw;
+    }
+
+    .donasi p {
+        font-size: 3.2vw;
+    }
+
+    .donasi .btn-donasi {
+        padding: 2vw;
+        padding-right: 4vw;
+        padding-left: 4vw;
+        margin-top: 3vw;
+        border-radius: 10vw;
+        font-size: 3vw;
+    }
+    
+    .pagination{
+        font-size: 3vw;
+    }
+    
+    .berita .media{
+        display: inline;
+    }
+    
+    .berita .media img{
+        margin-bottom: 2vw;
+    }
+    
+    h1{
+        font-size: 8vw;
+    }
+    
+    .kontak img{
+        width: 30%;
+    }
+}
