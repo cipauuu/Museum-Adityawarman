@@ -99,6 +99,18 @@
             color: white;
         }
 
+        .btn-sm {
+            color: white
+        }
+
+        .pagination .page-link {
+            color: #ffc107;
+        }
+
+        .page-item.active .page-link {
+            background: #ffc107;
+            border-color: #ffc107;
+        }
     </style>
 </head>
 
@@ -181,15 +193,63 @@
         <a href="admin-kontak.html">Kontak</a>
     </div>
     <!-- Sidebar -->
-    
+
     <!-- Body -->
     <div class="main">
-        <h1 class="mb-4">Visi & Misi Musem Adityawarman</h1>
-        <textarea name="editor1"></textarea>
+        <h1 class="mt-5 mb-4">Edit Post Berita Museum</h1>
 
-        <div class="container text-right mt-4 pr-0">
-            <a href="" class="btn btn-warning btn-lg" style="color: white;letter-spacing: 3px;">Simpan</a>
-        </div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Judul Berita</th>
+                    <th scope="col">Nama Penulis</th>
+                    <th scope="col">Tanggal Update</th>
+                    <th scope="col">Opsi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dari Bimtek Museum, Menghidupkan Museum Dengan Kreatifitas</td>
+                    <td>Syuhendri, M.Sn</td>
+                    <td>13 Maret 2020</td>
+                    <td>
+                        <a href="" class="btn btn-warning btn-sm">Edit</a>
+                        <a href="" class="btn btn-danger btn-sm">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>
+                        <a href="" class="btn btn-warning btn-sm">Edit</a>
+                        <a href="" class="btn btn-danger btn-sm">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>
+                        <a href="" class="btn btn-warning btn-sm">Edit</a>
+                        <a href="" class="btn btn-danger btn-sm">Delete</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <nav aria-label="Page navigation example" class="mt-5">
+            <ul class="pagination justify-content-end">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Sebelumnya</a>
+                </li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Selanjutnya</a></li>
+                <li class="page-item"><a class="page-link" href="#">Terakhir</a></li>
+            </ul>
+        </nav>
     </div>
     <!-- Body -->
 
@@ -214,12 +274,9 @@
 
 </script>
 
-<script src="ckeditor4/ckeditor.js"></script>
+<script src="https://cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
 <script>
-    CKEDITOR.replace('editor1', {
-        filebrowserBrowseUrl: '/browser/browse.php',
-        filebrowserUploadUrl: '/uploader/upload.php'
-    });
+    CKEDITOR.replace('editor1');
     CKEDITOR.config.height = '500px';
 
 </script>
