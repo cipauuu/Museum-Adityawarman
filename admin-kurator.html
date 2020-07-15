@@ -88,13 +88,13 @@
                 font-size: 18px;
             }
         }
-        
-        .artikel{
+
+        .artikel {
             background: #343A3F;
             color: white;
         }
-        
-        .artikel:hover{
+
+        .artikel:hover {
             background: #343A3F;
             color: white;
         }
@@ -184,14 +184,55 @@
 
     <!-- Body -->
     <div class="main">
-       
+        <h1 class="mb-4">Kurator Koleksi Arkeologika</h1>
         <form>
-            <div class="form-group">
-                <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="Judul Berita Museum">
+            <div class="form-row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="exampleInputName">Nama Kurator 1</label>
+                        <input placeholder="Nama Kurator 1" type="name" class="form-control" id="exampleInputName">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName">Tanggal Lahir Kurator 1</label>
+                        <input placeholder="Tanggal Lahir Kurator 1" type="name" class="form-control" id="exampleInputName">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName">Pendidikan Kurator 1</label>
+                        <input placeholder="Pendidikan Kurator 1" type="name" class="form-control" id="exampleInputName">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Biografi Kurator 1</label>
+                        <textarea name="editor1" placeholder="Deskripsi Lengkap" class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlFile1">Foto Kurator 1</label>
+                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label for="exampleInputName">Nama Kurator 2</label>
+                        <input placeholder="Nama Kurator 2" type="name" class="form-control" id="exampleInputName">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName">Tanggal Lahir Kurator 2</label>
+                        <input placeholder="Tanggal Lahir Kurator 2" type="name" class="form-control" id="exampleInputName">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName">Pendidikan Kurator 2</label>
+                        <input placeholder="Pendidikan Kurator 2" type="name" class="form-control" id="exampleInputName">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Biografi Kurator 1</label>
+                        <textarea name="editor2" placeholder="Deskripsi Lengkap" class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlFile1">Foto Kurator 2</label>
+                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                    </div>
+                </div>
             </div>
         </form>
-        
-        <textarea name="editor1"></textarea>
 
         <div class="container text-right mt-4 pr-0">
             <a href="" class="btn btn-warning btn-lg" style="color: white;letter-spacing: 3px;">Simpan</a>
@@ -226,7 +267,16 @@
         filebrowserBrowseUrl: '/browser/browse.php',
         filebrowserUploadUrl: '/uploader/upload.php'
     });
-    CKEDITOR.config.height = '500px';
+    CKEDITOR.config.height = '300px';
+
+</script>
+
+<script>
+    CKEDITOR.replace('editor2', {
+        filebrowserBrowseUrl: '/browser/browse.php',
+        filebrowserUploadUrl: '/uploader/upload.php'
+    });
+    CKEDITOR.config.height = '300px';
 
 </script>
 

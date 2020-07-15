@@ -88,13 +88,13 @@
                 font-size: 18px;
             }
         }
-        
-        .artikel{
+
+        .artikel {
             background: #343A3F;
             color: white;
         }
-        
-        .artikel:hover{
+
+        .artikel:hover {
             background: #343A3F;
             color: white;
         }
@@ -184,14 +184,29 @@
 
     <!-- Body -->
     <div class="main">
-       
+        <h1 class="mb-4">Kontak Museum Adityawarman</h1>
         <form>
-            <div class="form-group">
-                <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="Judul Berita Museum">
+               <div class="form-row">
+               <div class="col-4">
+                   <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Lokasi</label>
+                    <textarea name="editor1" placeholder="Deskripsi Lengkap" class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+                </div>
+               </div>
+               <div class="col-4">
+                   <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Layanan Kontak</label>
+                    <textarea name="editor2" placeholder="Deskripsi Lengkap" class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+                </div>
+               </div>
+               <div class="col-4">
+                   <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Jadwal</label>
+                    <textarea name="editor3" placeholder="Deskripsi Lengkap" class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+                </div>
+               </div>
             </div>
         </form>
-        
-        <textarea name="editor1"></textarea>
 
         <div class="container text-right mt-4 pr-0">
             <a href="" class="btn btn-warning btn-lg" style="color: white;letter-spacing: 3px;">Simpan</a>
@@ -226,7 +241,25 @@
         filebrowserBrowseUrl: '/browser/browse.php',
         filebrowserUploadUrl: '/uploader/upload.php'
     });
-    CKEDITOR.config.height = '500px';
+    CKEDITOR.config.height = '300px';
+
+</script>
+
+<script>
+    CKEDITOR.replace('editor2', {
+        filebrowserBrowseUrl: '/browser/browse.php',
+        filebrowserUploadUrl: '/uploader/upload.php'
+    });
+    CKEDITOR.config.height = '300px';
+
+</script>
+
+<script>
+    CKEDITOR.replace('editor3', {
+        filebrowserBrowseUrl: '/browser/browse.php',
+        filebrowserUploadUrl: '/uploader/upload.php'
+    });
+    CKEDITOR.config.height = '300px';
 
 </script>
 
